@@ -1,6 +1,6 @@
 {
   "name": "module2",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -9,6 +9,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "module3": "1.0.0"
+    "module3": "^0.0.1"
   }
 }
