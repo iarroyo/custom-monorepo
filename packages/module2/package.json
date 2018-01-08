@@ -12,6 +12,6 @@
     "registry": "https://inexus.ixxus.co.uk/repository/npm-private/"
   },
   "dependencies": {
-    "module3": "^0.0.1"
+    "@test/module3": "0.1.0"
   }
 }
