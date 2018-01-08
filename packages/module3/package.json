@@ -1,6 +1,6 @@
 {
-  "name": "@test/module2",
-  "version": "0.7.0",
+  "name": "@test/module3",
+  "version": "0.1.0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -10,8 +10,5 @@
   "license": "ISC",
   "publishConfig": {
     "registry": "https://inexus.ixxus.co.uk/repository/npm-private/"
-  },
-  "dependencies": {
-    "@test/module3": "^0.1.0"
   }
 }
