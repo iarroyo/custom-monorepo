@@ -1,0 +1,10 @@
+{
+    "name": "root",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/iarroyo/custom-monorepo.git"
+    },
+	"devDependencies": {
+		"lerna": "^2.5.1"
+	}
+}
