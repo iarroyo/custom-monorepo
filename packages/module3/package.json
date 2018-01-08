@@ -1,5 +1,5 @@
 {
-  "name": "module3",
+  "name": "@test/module3",
   "version": "0.0.1",
   "description": "",
   "main": "index.js",
@@ -7,5 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+    "publishConfig": {
+        "registry": "https://inexus.ixxus.co.uk/repository/npm-private/"
+    },
 }

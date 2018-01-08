@@ -1,0 +1,113 @@
+0 silly input [ 'publish' ]
+1 silly flags { _: [ 'publish' ], 'reject-cycles': false, rejectCycles: false }
+2 verbose rootPath /Users/iarroyoescobar/Development/workspaces-local/others/lerna-repo
+3 info version 2.5.1
+4 silly isInitialized
+5 silly isInitialized true
+6 silly existsSync /Users/iarroyoescobar/Development/workspaces-local/others/lerna-repo/VERSION
+7 silly initialize attempt
+8 info current version 0.0.0
+9 silly isDetachedHead
+10 silly getCurrentBranch
+11 verbose getCurrentBranch master
+12 verbose isDetachedHead false
+13 silly getCurrentBranch
+14 verbose getCurrentBranch master
+15 silly getUpdates
+16 info Checking for updated packages...
+17 silly hasTags
+18 verbose hasTags false
+19 info Comparing with initial commit.
+20 verbose updated module1
+21 verbose updated module2
+22 verbose updated module3
+23 info Checking for prereleased packages...
+24 silly collectDependents
+25 silly isPackageDependentOf module1 module1
+26 silly isPackageDependentOf module2 module1
+27 silly isPackageDependentOf module3 module1
+28 silly isPackageDependentOf module1 module2
+29 verbose dependent module1 depends on module2
+30 silly isPackageDependentOf module1 module3
+31 silly isPackageDependentOf module2 module3
+32 verbose dependent module1 depends on module3
+33 silly isPackageDependentOf module2 module1
+34 silly isPackageDependentOf module2 module2
+35 silly isPackageDependentOf module3 module2
+36 silly isPackageDependentOf module2 module3
+37 verbose dependent module2 depends on module3
+38 silly isPackageDependentOf module3 module1
+39 silly isPackageDependentOf module3 module2
+40 silly isPackageDependentOf module3 module3
+41 silly collectUpdates
+42 verbose has filtered update module1
+43 verbose has filtered update module2
+44 verbose has filtered update module3
+45 silly initialize success
+46 silly execute attempt
+47 silly addFile /Users/iarroyoescobar/Development/workspaces-local/others/lerna-repo/lerna.json
+48 silly runScriptSync preversion module1
+49 silly runScriptSync version module1
+50 silly runScriptSync preversion module2
+51 silly runScriptSync version module2
+52 silly runScriptSync preversion module3
+53 silly runScriptSync version module3
+54 silly addFile /Users/iarroyoescobar/Development/workspaces-local/others/lerna-repo/packages/module1/package.json
+55 silly addFile /Users/iarroyoescobar/Development/workspaces-local/others/lerna-repo/packages/module2/package.json
+56 silly addFile /Users/iarroyoescobar/Development/workspaces-local/others/lerna-repo/packages/module3/package.json
+57 silly commit v0.0.1
+58 verbose commit [ 'commit', '--no-gpg-sign', '-m', 'v0.0.1' ]
+59 silly addTag v0.0.1
+60 silly runScriptSync postversion module1
+61 silly runScriptSync postversion module2
+62 silly runScriptSync postversion module3
+63 info publish Publishing packages to npm...
+64 silly existsSync /Users/iarroyoescobar/Development/workspaces-local/others/lerna-repo/packages/module1/scripts/prepublish.js
+65 verbose execScript No prepublish script found at /Users/iarroyoescobar/Development/workspaces-local/others/lerna-repo/packages/module1/scripts/prepublish.js
+66 silly existsSync /Users/iarroyoescobar/Development/workspaces-local/others/lerna-repo/packages/module2/scripts/prepublish.js
+67 verbose execScript No prepublish script found at /Users/iarroyoescobar/Development/workspaces-local/others/lerna-repo/packages/module2/scripts/prepublish.js
+68 silly existsSync /Users/iarroyoescobar/Development/workspaces-local/others/lerna-repo/packages/module3/scripts/prepublish.js
+69 verbose execScript No prepublish script found at /Users/iarroyoescobar/Development/workspaces-local/others/lerna-repo/packages/module3/scripts/prepublish.js
+70 verbose publishing module3
+71 silly publishTaggedInDir latest module3
+72 silly getExecOpts { cwd: '/Users/iarroyoescobar/Development/workspaces-local/others/lerna-repo/packages/module3' }
+73 error publish Retrying failed publish: module3
+74 verbose publish error undefined
+75 verbose publishing module3
+76 silly publishTaggedInDir latest module3
+77 silly getExecOpts { cwd: '/Users/iarroyoescobar/Development/workspaces-local/others/lerna-repo/packages/module3' }
+78 error publish Retrying failed publish: module3
+79 verbose publish error undefined
+80 verbose publishing module3
+81 silly publishTaggedInDir latest module3
+82 silly getExecOpts { cwd: '/Users/iarroyoescobar/Development/workspaces-local/others/lerna-repo/packages/module3' }
+83 error publish Retrying failed publish: module3
+84 verbose publish error undefined
+85 verbose publishing module3
+86 silly publishTaggedInDir latest module3
+87 silly getExecOpts { cwd: '/Users/iarroyoescobar/Development/workspaces-local/others/lerna-repo/packages/module3' }
+88 error publish Retrying failed publish: module3
+89 verbose publish error undefined
+90 verbose publishing module3
+91 silly publishTaggedInDir latest module3
+92 silly getExecOpts { cwd: '/Users/iarroyoescobar/Development/workspaces-local/others/lerna-repo/packages/module3' }
+93 error publish Ran out of retries while publishing module3 Error: Command failed: npm publish --tag latest
+93 error publish npm ERR! publish Failed PUT 400
+93 error publish npm ERR! code E400
+93 error publish npm ERR! 400 Bad Request
+93 error publish
+93 error publish npm ERR! A complete log of this run can be found in:
+93 error publish npm ERR!     /Users/iarroyoescobar/.npm/_logs/2018-01-08T15_29_26_959Z-debug.log
+93 error publish
+93 error publish     at Promise.all.then.arr (/Users/iarroyoescobar/.nvm/versions/node/v7.9.0/lib/node_modules/lerna/node_modules/execa/index.js:236:11)
+93 error publish     at process._tickCallback (internal/process/next_tick.js:109:7)
+94 error execute callback with error
+95 error Error: Command failed: npm publish --tag latest
+95 error npm ERR! publish Failed PUT 400
+95 error npm ERR! code E400
+95 error npm ERR! 400 Bad Request
+95 error
+95 error npm ERR! A complete log of this run can be found in:
+95 error npm ERR!     /Users/iarroyoescobar/.npm/_logs/2018-01-08T15_29_26_959Z-debug.log
+95 error
+95 error     at Promise.all.then.arr (/Users/iarroyoescobar/.nvm/versions/node/v7.9.0/lib/node_modules/lerna/node_modules/execa/index.js:236:11)
