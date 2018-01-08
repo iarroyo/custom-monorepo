@@ -4,7 +4,7 @@
         "type": "git",
         "url": "https://github.com/iarroyo/custom-monorepo.git"
     },
-	"devDependencies": {
-		"lerna": "^2.5.1"
-	}
+    "devDependencies": {
+        "lerna": "^2.5.1"
+    }
 }
