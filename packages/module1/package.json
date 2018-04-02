@@ -1,6 +1,6 @@
 {
   "name": "@test/module1",
-  "version": "0.21.2",
+  "version": "0.21.3",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -12,6 +12,6 @@
     "registry": "https://inexus.ixxus.co.uk/repository/npm-private/"
   },
   "dependencies": {
-    "@test/module2": "0.14.2"
+    "@test/module2": "0.14.3"
   }
 }
